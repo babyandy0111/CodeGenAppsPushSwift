@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CodeGenAppsPushSwift_Example' do
+  pod 'CodeGenAppsPushSwift', :path => '../'
+
+  target 'CodeGenAppsPushSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
